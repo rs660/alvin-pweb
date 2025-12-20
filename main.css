@@ -325,7 +325,7 @@ section.experiences {
 
 .experience_title {
     color: rgb(180, 180, 180);   
-    font-size: 1.3rem;           
+    font-size: 1.12rem;           
     font-weight: 700;
 }
 
@@ -385,12 +385,8 @@ section.coursework {
 
 .course_title {
     color: rgb(180, 180, 180);   
-    font-size: 1.3rem;           
+    font-size: 1.12rem;           
     font-weight: 700;
-}
-
-section.projects {
-    margin: 2em;
 }
 
 .section_title {
@@ -426,8 +422,13 @@ section.projects > .projects > .separator {
     grid-column: 1 / -1;
 }
 
+.main_proj {
+    margin: 1.41em
+}
+
 .bike_proj {
     grid-column: 1 / -1;
+    margin: 1.41em;
 }
 
 .proj_pic {
@@ -435,6 +436,7 @@ section.projects > .projects > .separator {
     height: 16em;
     object-fit: cover;
     border: 3px solid rgb(150, 150, 150);
+    box-sizing: border-box;
 }
 
 .proj_pic:hover {
@@ -458,7 +460,7 @@ section.projects > .projects > .separator {
 
 .proj_name {
     color: rgb(180, 180, 180);
-    font-size: 1.3rem;
+    font-size: 1.12rem;
     display: block;
     margin-bottom: 0em;
 }
@@ -553,6 +555,11 @@ footer {
         margin: 3rem auto;
     }
 
+    section.projects > div.projects {
+        display: block;
+        column-gap: 0;
+    }
+
     .tech_stack {
         display: flex;
         gap: 0.25rem;
@@ -583,6 +590,12 @@ footer {
         padding-left: 1rem;
         padding-right: 1rem;
         max-height: 3em;
+    }
+
+    .link {
+        margin-top: 0.25em;
+        stroke: rgb(180, 180, 180);
+        margin-right: -0.5rem;
     }
 }
 
