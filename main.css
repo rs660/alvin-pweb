@@ -1,12 +1,16 @@
 html {
     scroll-behavior: smooth;
     font-size: 18px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
     background-color: rgb(50, 50, 50);
     margin: 0.41em;
     font-family: 'Roboto Mono', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 hr {
@@ -116,6 +120,7 @@ section.about {
 
 .intro {
     color: #E2B714;
+    font-size: 1.25rem;
 }
 
 .name {
@@ -307,7 +312,7 @@ section.experiences {
 
 .experience_title {
     color: rgb(180, 180, 180);   
-    font-size: 1.41rem;           
+    font-size: 1.3rem;           
     font-weight: 700;
 }
 
@@ -367,7 +372,7 @@ section.coursework {
 
 .course_title {
     color: rgb(180, 180, 180);   
-    font-size: 1.41rem;           
+    font-size: 1.3rem;           
     font-weight: 700;
 }
 
@@ -401,7 +406,7 @@ section.projects {
 section.projects > div.projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 4rem;
+    column-gap: 4rem;
 }
 
 section.projects > .projects > .separator {
@@ -440,7 +445,7 @@ section.projects > .projects > .separator {
 
 .proj_name {
     color: rgb(180, 180, 180);
-    font-size: 1.41rem;
+    font-size: 1.3rem;
     display: block;
     margin-bottom: 0em;
 }
