@@ -5,7 +5,7 @@ html {
 
 body {
     background-color: rgb(50, 50, 50);
-    margin: 2em;
+    margin: 1em;
     font-family: 'Roboto Mono', sans-serif;
 }
 
@@ -518,7 +518,7 @@ footer {
 
     body {
         width: 700px;
-        margin: 2em auto;
+        margin: 1em auto;
     }
 }
 
@@ -526,7 +526,7 @@ footer {
 
     body {
         width: 1050px;
-        margin: 2em auto;
+        margin: 1em auto;
     }
 
     .menu {
