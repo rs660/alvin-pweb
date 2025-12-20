@@ -212,7 +212,7 @@ section.about {
     flex-direction: row;
     justify-content: center;
     max-width: 30em;
-    width: 19.9em;
+    width: 20em;
     max-height: 3em;
     gap: 0.5em;
     border: thin solid #E2B714;
@@ -574,6 +574,15 @@ footer {
 
     .directs li {
         margin-left: 0.25rem;
+    }
+
+    .contact_contents_email {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        max-height: 3em;
     }
 }
 
