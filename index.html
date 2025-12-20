@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+	<title>alvinhat's website</title>
+	<link rel="icon" type="image/png" href="imgs/bananaphone.png">
+</head>
+
+</head>
+
+<body>
+	<input type="checkbox" id="nav_toggle" hidden>
+
+	<header> 
+		<a href=""><img class="logo" src="imgs/bananaphone.jpg"></a> 
+
+		<!-- Menu button opens nav -->
+		<label for="nav_toggle">
+			<svg class="menu" xmlns="http://www.w3.org/2000/svg" version="1.1"
+				 viewBox="0 0 16 16" stroke-width="1.5"
+				 stroke-linecap="round" stroke-linejoin="round"> 
+				<path d="m2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/>
+			</svg>
+		</label>
+
+		<nav>
+			<!-- Close button closes nav -->
+			<label for="nav_toggle">
+				<svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"> 
+					<path d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"/>
+				</svg>
+			</label>
+
+			<ul class="directs">
+				<li><a href="#about" class="direct">About Me</a></li>
+				<li><a href="#experiences" class="direct">Experience</a></li>
+				<li><a href="#projects" class="direct">Projects</a></li>
+				<li><a href="#coursework" class="direct">Coursework</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="about_wrapper">
+		<section class="about" id="about">
+			<p class="intro">Software Engineer · New Graduate (2026)</p>
+			<h1 class="name">Alvin Hatcher</h1>
+			<h2 class="desc">Seeking full-time new grad roles for May 2026.</h2>
+			<p class="bio">Hi! This is where I journal about my academic and professional experiences. To start off, I'm a student at the University Michigan studying Computer Science. Previously, I worked at Capital One as a Software Engineering Intern, developing three different high-traffic internal platforms. My main interests are in systems, but I'm also interested in general backend, platform, and infrastructure work. Outside of computer science-y stuff, I love lockpicking, playing microstakes-NL Poker online, doing strange puzzles in various topics, racing, and building my motorcycles (expert motorcycle race license by 2028).</p>
+			
+			<!-- add icons plz -->
+			<ul class="contacts">
+				<li>
+					<a class="contact_box" href="https://github.com/rs660" target="_blank" rel="noopener noreferrer">
+						<div contact_contents class="contact_contents">
+							<svg class="contact_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+							</svg>
+							<p class="contact_title">GitHub</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a class="contact_box" href="https://www.linkedin.com/in/alvinhat/" target="_blank" rel="noopener noreferrer">
+						<div contact_contents class="contact_contents_linkedin">
+							<svg class="contact_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+							</svg> 
+							<p class="contact_title">LinkedIn</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a class="contact_box" href="mailto:alvinhat@umich.edu">
+						<div contact_contents class="contact_contents_email">
+							<svg class="contact_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+							</svg>
+							<p class="contact_title">alvinhat@umich.edu</p>
+						</div>
+					</a>
+			</ul>
+			<svg class="down_arrow" viewBox="0 0 16 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M7.29289 131.707C7.68341 132.098 8.31658 132.098 8.7071 131.707L15.0711 125.343C15.4616 124.953 15.4616 124.319 15.0711 123.929C14.6805 123.538 14.0474 123.538 13.6568 123.929L7.99999 129.586L2.34314 123.929C1.95262 123.538 1.31945 123.538 0.928927 123.929C0.538402 124.319 0.538402 124.953 0.928927 125.343L7.29289 131.707ZM7 -4.37114e-08L6.99999 131L8.99999 131L9 4.37114e-08L7 -4.37114e-08Z" fill="#E2B714"/>
+			</svg>
+
+		</section> 
+	</div>
+
+	<section class="experiences" id="experiences">
+	    <div class="separator">
+	        <h1 class="section_title">Experience</h1>
+	    </div>
+
+		<ul class="experience_list">
+
+		    <li class="experience">
+		        <h2 class="experience_title">Capital One</h2>
+		        <p class="experience_subtitle"><em>Software Engineer Intern · Summer 2024</em></p>
+		        <p>I worked in a team responsible for an internal platform that orchestrates over 5 million outbound customer messages daily. My intern podmates and I spent ~1/3 of the internship period developing shared package libraries for the team's different applications; the rest of the summer was spent developing timezone-aware scheduling workflows for four different AWS Lambda services in the platform's architecture. I also got to use a lot of interesting C1 internal tooling. Overall, 8.5/10.</p>
+		    </li>
+
+		    <li class="experience">
+		        <h2 class="experience_title">Capital One</h2>
+		        <p class="experience_subtitle"><em>Software Engineer Intern · Summer 2023</em></p>
+		        <p>This summer, I worked on incorporating AutoPay into credit recovery payment plans. It was my first exposure to Java (and Spring) and also my first ever time writing rigorous tests in a production environment. So, I spent the first two weeks learning what Spring (Boot) actually does and decrypting the giant codebase we are working on. Still, we didn't actually get to design a lot of stuff so this summer definitely was not as involved as my previous. 7/10.</p>
+		    </li>
+
+		    <li class="experience">
+		        <h2 class="experience_title">Capital One</h2>
+		        <p class="experience_subtitle"><em>Software Engineer Intern · Summer 2022</em></p>
+		        <p>My first summer at Capital One and my first time working in a software engineering role in general! Alongside with just one other intern, I worked in a team responsible for reward points settlement in partnered credit cards (think Macy's CC and stuff like that). We were tasked with designing and fully implementing a prototype for a batch processor that can service 30,000+ transactions daily; the goal was to replace a legacy system still servicing existing rewards transactions for one specific partner. It was a lot of work (and fun) coming up with AWS architectures and even more work actually implementing it. Overall, it was a <em>reward</em>ing summer internship, just wished it was longer so we could finish up testing and maybe even see prod-deployment. 9.5/10.</p>
+		    </li>
+
+		</ul>
+
+	</section>
+
+
+	<section class="projects" id="projects">		
+		<div class="separator"><h1 class="section_title">Projects</h1></div>
+		
+		<div class="main_projects">
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">Search Engine</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">C++20</li>
+						<li class="tech">AWS</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">Virtual Memory Manager</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">C++20</li>
+						<li class="tech">Unix</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">Network File System</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">C++20</li>
+						<li class="tech">Boost</li>
+						<li class="tech">Unix</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">Thread Library</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">C++20</li>
+						<li class="tech">Unix</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">Minesweeper Solver</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">Python 3.10</li>
+						<li class="tech">Playwright</li>
+						<li class="tech">Pillow</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">Job Scheduler</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">Go</li>
+						<li class="tech">Cron</li>
+						<li class="tech">SQLite</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">Car Model Image Classifier</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">Python 3.10</li>
+						<li class="tech">PyTorch</li>
+						<li class="tech">NumPy</li>
+						<li class="tech">Pandas</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">RL Snake Agent</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">Python 3.10</li>
+						<li class="tech">PyTorch</li>
+						<li class="tech">Playwright</li>
+						<li class="tech">Pillow</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="" class="proj_name">LoL Winrate Probability Predictor</a>
+						<a href="">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">Python 3.10</li>
+						<li class="tech">Scikit-learn</li>
+						<li class="tech">NumPy</li>
+						<li class="tech">Pandas</li>
+					</ul>
+					<p class="desc">TODO.</p>
+				</div>
+			</div>
+
+			<div class="separator"><h1 class="section_title">Bike Projects</h1></div>
+
+			<div class="main_proj">
+				<a href="https://en.wikipedia.org/wiki/Aprilia_RS660"><img src="imgs/aprilia.jpeg" class="proj_pic"></a>
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="https://en.wikipedia.org/wiki/Aprilia_RS660" class="proj_name">Aprilia RS660</a>
+						<a href="https://en.wikipedia.org/wiki/Aprilia_RS660">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">Street/Track</li>
+						<li class="tech">659cc</li>
+						<li class="tech">Parallel Twin</li>
+					</ul>
+					<p class="desc">Goal is to make this my dedicated trackbike (MAYBE compete in the middleweight twin's class). Right now, it's mostly stock other than ergos (rearsets) and crash protection. The bike has the best handling I've ever experienced and the Aprilia QS is very smooth as well.</p>
+				</div>
+			</div>
+
+			<div class="main_proj">
+				<a href="https://en.wikipedia.org/wiki/Kawasaki_Ninja_400"><img src="imgs/n400.jpeg" class="proj_pic"></a>
+				<div class="proj_info">
+					<div class="first_line">
+						<a href="https://en.wikipedia.org/wiki/Kawasaki_Ninja_400" class="proj_name">Kawasaki Ninja 400</a>
+						<a href="https://en.wikipedia.org/wiki/Kawasaki_Ninja_400">
+							<svg class="link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+								<path d="M14 4h-13v18h20v-11h1v12h-22v-20h14v1zm10 5h-1v-6.293l-11.646 11.647-.708-.708 11.647-11.646h-6.293v-1h8v8z"/>
+							</svg>
+						</a>
+					</div>
+					<ul class="tech_stack">
+						<li class="tech">Track/Race</li>
+						<li class="tech">399cc</li>
+						<li class="tech">Parallel Twin</li>
+					</ul>
+					<p class="desc">With a help of a friend, I put together this insanely spec'd out race bike; we installed an exhaust, Vortex ergonomics (rearsets and clipons), crash protection, Ohlin's rear shock, and a quickshifter. This model is the absolute best bike in its class, and I'm sad to eventually sell it to dedicate more time to the Aprilia.</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<section class="coursework" id="coursework">
+	    <div class="separator">
+	        <h1 class="section_title">Coursework</h1>
+	    </div>
+
+		<ul class="coursework_list">
+
+		    <div class="course">
+				<h2 class="course_title">EECS 491 - Distributed Systems</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 498 - System Design of a Search Engine</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 482 - Operating Systems (w/ Advanced Projects)</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 445 - Machine Learning</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 398 - Practical Data Science</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 388 - Computer Security</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 492 - Artificial Intelligenec</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 281 - Data Structures & Algorithms</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">EECS 370 - Computer Organization</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">MATH 217 - Linear Algebra</h2>
+				<p>TODO.</p>
+		    </div>
+
+		    <div class="course">
+				<h2 class="course_title">MATH 425 - Probability</h2>
+				<p>TODO.</p>
+		    </div>
+
+		</ul>
+
+	</section>
+
+	<footer> 
+		<hr>
+		<ul class="end_contacts">
+			<li>
+				<a href="https://github.com/rs660" target="_blank" rel="noopener noreferrer">
+					<svg class="end_contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+					</svg>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/alvinhat/" target="_blank" rel="noopener noreferrer"> 
+					
+					<svg class="end_contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+					</svg>
+				</a>
+			</li>
+			<li>
+				<a href="mailto:alvinhat@umich.edu">
+					<svg class="end_contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+					</svg>
+				</a>
+			</li>
+		</ul>
+		<p class="copyright"><span class="copyright_symbol">©</span> 2025, alvinhat. Mashed together site, haha.</p>
+	</footer>
+
+</body>
+</html>
