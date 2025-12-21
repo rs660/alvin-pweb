@@ -415,7 +415,6 @@ section.coursework {
 section.projects > div.projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    column-gap: 4rem;
 }
 
 section.projects > .projects > .separator {
